@@ -4,14 +4,14 @@ import {
   databaseURL,
   storageBucket,
   projectId,
-  serviceAccountKey
+  serviceAccountKey,
 } from '../../env.json';
 
 const projectConfig = {
   databaseURL,
   storageBucket,
   projectId,
-  serviceAccountKey
+  serviceAccountKey,
 };
 
 const test = testConfig(projectConfig, serviceAccountKey);
